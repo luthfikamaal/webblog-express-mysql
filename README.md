@@ -1,4 +1,4 @@
-# webblog-express-mysql
+# Webblog- Express & MySQL
 
 ## Installation
 To get the Node server running locally:
