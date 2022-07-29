@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title><%= post.title %></title>
+    <%- include('../layouts/style') %>
+  </head>
+  <body>
+    <%- include('../layouts/navbar') %>
+    <!-- Content -->
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="mb-3">
+            <h1 class="m-0"><%= post.title %></h1>
+            <span><%= post.author %></span>
+          </div>
+          <p><%= post.body %></p>
+        </div>
+      </div>
+    </div>
+    <!-- Content -->
+
+    <%- include('../layouts/script') %>
+  </body>
+</html>
